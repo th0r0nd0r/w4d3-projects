@@ -15,6 +15,10 @@
   margin: 0px 5px;
 }
 
-.all:hover {
+li:hover {
+  background-color: $light-gray;
+}
+li:last-of-type:hover {
+  background-color: white;
   text-decoration: underline;
 }
